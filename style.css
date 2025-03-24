@@ -1,0 +1,315 @@
+/* Основные стили */
+/* Основные стили */
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #121212; /* Черный фон */
+	font-family: 'Roboto', sans-serif;
+	color: #ffd700; /* Желтый цвет */
+}
+
+.task-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1c1c1c; /* Темный фон для задач */
+	padding: 15px;
+	margin: 10px 0;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.task-text {
+	flex-grow: 1;
+	margin-right: 15px;
+	font-size: 18px;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: gray;
+}
+
+.done-btn,
+.delete-btn {
+	background-color: #ffb100; /* Желтый */
+	color: #121212; /* Черный */
+	border: none;
+	border-radius: 5px;
+	padding: 8px 16px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+}
+
+.done-btn:hover {
+	background-color: #ff9900;
+	transform: scale(1.1);
+}
+
+.delete-btn {
+	background-color: #ff4c4c; /* Красный для удаления */
+}
+
+.delete-btn:hover {
+	background-color: #ff1a1a;
+	transform: scale(1.1);
+}
+
+.header {
+	display: flex;
+	padding: 15px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1c1c1c;
+}
+
+.logo {
+	color: #ffd700;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.navlinks {
+	display: flex;
+	gap: 20px;
+}
+
+.navlinks a {
+	text-decoration: none;
+	color: #ffd700;
+	font-size: 18px;
+	transition: color 0.3s;
+}
+
+.navlinks a:hover {
+	color: #ffb100;
+}
+
+footer {
+	background-color: #1c1c1c;
+	color: #ffd700;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pfooter {
+	margin: 0;
+	font-size: 16px;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.email,
+.github {
+	color: #ffd700;
+	text-decoration: none;
+	font-size: 18px;
+	transition: color 0.3s, transform 0.3s;
+}
+
+.email:hover {
+	color: #ffb100;
+	transform: scale(1.2);
+}
+
+.github:hover {
+	transform: scale(1.2);
+}
+
+.input {
+	color: #ffd700;
+	background-color: #121212;
+	border-radius: 8px;
+	height: 50px;
+	width: 300px;
+	border: 2px solid #ffd700;
+	padding-left: 10px;
+	margin: 10px;
+}
+
+.input:focus {
+	border-color: #ffb100;
+}
+
+.btnsubmit {
+	color: #121212;
+	background-color: #ffd700;
+	height: 50px;
+	width: 120px;
+	border-radius: 14px;
+	border: none;
+	transition: background-color 0.3s, transform 0.3s;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btnsubmit:hover {
+	background-color: #ffb100;
+	transform: scale(1.1);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.motivationcontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.h1mot {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.helpbtn {
+	height: 50px;
+	width: 120px;
+	background-color: #1c1c1c;
+	color: #ffd700;
+	border: none;
+	border-radius: 8px;
+	margin: 15px;
+	transition: background-color 0.3s, transform 0.3s;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.helpbtn:hover {
+	background-color: #ffd700;
+	color: #121212;
+	transform: scale(1.1);
+}
+
+.author,
+.quote {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+/* Модальное окно */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+	background-color: #1c1c1c;
+	margin: 10% auto;
+	padding: 20px;
+	border: 1px solid #ffd900;
+	width: 50%;
+	border-radius: 11px;
+	color: #ffd700;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #ffb100;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+	.task-item {
+		flex-direction: column;
+		padding: 12px;
+		align-items: flex-start;
+	}
+
+	.task-text {
+		margin-right: 0;
+		font-size: 16px;
+	}
+
+	.header {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navlinks {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.logo {
+		margin-bottom: 20px;
+	}
+
+	footer {
+		padding: 15px;
+	}
+
+	.input {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.btnsubmit {
+		width: 100%;
+	}
+
+	.container {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.task-item {
+		font-size: 14px;
+	}
+
+	.btnsubmit,
+	.helpbtn {
+		width: 100%;
+	}
+
+	.logo {
+		font-size: 20px;
+	}
+
+	.h1mot {
+		font-size: 26px;
+	}
+
+	.container {
+		padding: 10px;
+	}
+}
+
+a {
+	text-decoration: none;
+}
