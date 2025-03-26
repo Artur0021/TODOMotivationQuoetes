@@ -1,20 +1,18 @@
-/* Основные стили */
-/* Основные стили */
 html,
 body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #121212; /* Черный фон */
+	background-color: #121212;
 	font-family: 'Roboto', sans-serif;
-	color: #ffd700; /* Желтый цвет */
+	color: #ffd700;
 }
 
 .task-item {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #1c1c1c; /* Темный фон для задач */
+	background-color: #1c1c1c;
 	padding: 15px;
 	margin: 10px 0;
 	border-radius: 8px;
@@ -34,8 +32,8 @@ body {
 
 .done-btn,
 .delete-btn {
-	background-color: #ffb100; /* Желтый */
-	color: #121212; /* Черный */
+	background-color: #ffb100;
+	color: #121212;
 	border: none;
 	border-radius: 5px;
 	padding: 8px 16px;
@@ -49,7 +47,7 @@ body {
 }
 
 .delete-btn {
-	background-color: #ff4c4c; /* Красный для удаления */
+	background-color: #ff4c4c;
 }
 
 .delete-btn:hover {
