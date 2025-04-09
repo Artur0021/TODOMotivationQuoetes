@@ -1,32 +1,44 @@
-TODO quotes - github 
-link : https://todomotivationquotes.netlify.app/
-link github : https://github.com/Artur0021/TODOMotivationQuoetes
-Description : Task List with LocalStorage
+# ✅ TODO Motivation Quotes
 
-English 🇬🇧
+🧩 **Технологии**: HTML, CSS, JavaScript, LocalStorage, Fetch API, Responsive Web Design  
+🚀 **Live**: [https://todomotivationquotes.netlify.app/](https://todomotivationquotes.netlify.app/)  
+💻 **GitHub**: [https://github.com/Artur0021/TODOMotivationQuoetes](https://github.com/Artur0021/TODOMotivationQuoetes)
 
-This task management web app is built using plain HTML, CSS, and JavaScript.
-It allows users to add tasks with the ability to toggle their status (completed/incomplete) and delete tasks. All task data is saved in localStorage, 
-ensuring data persists across sessions.
-In addition, the app features a "Help me" button that fetches motivational quotes along with their authors from an external API. 
-A modal window is also included to guide users on how to properly use the app.
-The project has a responsive design and is compatible with all devices.
+---
 
-Русский 🇷🇺
+## 📌 Описание (Русский 🇷🇺)
 
-Это веб-приложение для управления задачами, разработанное с использованием чистых технологий HTML, CSS и JavaScript. 
-Проект включает функционал добавления задач с возможностью переключения статуса (готово/не готово), а также удаления задач. 
-Вся информация о задачах сохраняется в localStorage, что позволяет сохранять данные между сессиями.
-Кроме того, в проекте реализована кнопка "Help me", которая обращается к внешнему API для получения мотивационной цитаты с автором.
-Также предусмотрено модальное окно с инструкцией по правильному использованию приложения.
-Проект имеет адаптивный дизайн и совместим со всеми устройствами.
+Минималистичное ToDo-приложение с мотивацией!
 
-Čeština 🇨🇿
+- ✅ Добавление задач, переключение статуса (готово/не готово)  
+- ❌ Удаление задач и сохранение данных в `localStorage`  
+- 💬 Кнопка **Help me** для получения мотивационной цитаты с внешнего API  
+- 📘 Модальное окно с инструкцией по использованию  
+- ⚙️ Чистые технологии: HTML, CSS и JavaScript  
+- 📱 Полностью адаптивный интерфейс
 
-Toto webové aplikace pro správu úkolů byla vytvořena pomocí čistých technologií HTML, CSS a JavaScript.
-Projekt zahrnuje funkce pro přidávání úkolů s možností přepínání stavu (hotovo/nehotovo) a také pro odstraňování úkolů.
-Veškeré informace o úkolech jsou ukládány do localStorage, což umožňuje uchovávat data mezi relacemi.
-Dále je v projektu implementováno tlačítko "Help me", které se obrací na externí API pro získání motivační citace s autorem. 
-K dispozici je také modální okno s návodem na správné používání aplikace.
-Projekt má responzivní design a je kompatibilní se všemi zařízeními.
+---
 
+## 🌍 Description (English 🇬🇧)
+
+A clean and simple task manager — with motivation included!
+
+- ✅ Add, toggle (done/not done), and delete tasks  
+- 💾 Data persistence via `localStorage`  
+- 💬 "Help me" button fetches a motivational quote from an external API  
+- 📘 Instruction modal for user guidance  
+- ⚙️ Built with pure HTML, CSS, and JavaScript  
+- 📱 Fully responsive design
+
+---
+
+## ✅ Popis (Čeština 🇨🇿)
+
+Jednoduchá úkolová aplikace s motivací!
+
+- ✅ Přidání úkolů, přepínání stavu (hotovo/nehotovo)  
+- ❌ Odstranění úkolů a ukládání do `localStorage`  
+- 💬 Tlačítko **Help me** s motivačními citáty z externího API  
+- 📘 Modální okno s návodem k použití  
+- ⚙️ Čisté HTML, CSS a JavaScript  
+- 📱 Plně responzivní design
