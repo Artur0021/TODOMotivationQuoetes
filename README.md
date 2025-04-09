@@ -1,6 +1,6 @@
 # ✅ TODO Motivation Quotes
 
-🧩 **Технологии**: HTML, CSS, JavaScript, LocalStorage, Fetch API, Responsive Web Design  
+🧩 **Technologies**: HTML, CSS, JavaScript, LocalStorage, Fetch API, Responsive Web Design  
 🚀 **Live**: [https://todomotivationquotes.netlify.app/](https://todomotivationquotes.netlify.app/)  
 💻 **GitHub**: [https://github.com/Artur0021/TODOMotivationQuoetes](https://github.com/Artur0021/TODOMotivationQuoetes)
 
